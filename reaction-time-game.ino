@@ -11,7 +11,7 @@ int yellowPin2 = 11;
 int greenPin = 10;
 int bluePin1 = 7;
 int bluePin2 = 6;
-int bluePin3 = 4;
+int bluePin3 = 8;
 
 int rsPin = 10;
 int enablePin = 3;
