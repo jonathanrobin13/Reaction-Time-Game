@@ -7,9 +7,9 @@ int blueFlashSpeed = 100;
 
 int redPin = 13;
 int yellowPin1 = 12;
-int yellowPin2 = 8;
-int greenPin = 7;
-int bluePin1 = 11
+int yellowPin2 = 11;
+int greenPin = 10;
+int bluePin1 = 7;
 int bluePin2 = 6;
 int bluePin3 = 4;
 
@@ -21,7 +21,7 @@ int D6 = A6;
 int D5 = A5;
 int D4 = A4;
 
-LiquidCrystal lcd(rs, e, D4, D5, D6, D7);
+LiquidCrystal lcd(rsPin, enablePin, D4, D5, D6, D7);
 
 void setup() {
   // put your setup code here, to run once:
@@ -32,8 +32,8 @@ void setup() {
   pinMode(bluePin2, OUTPUT); // blue 
   pinMode(bluePin3, OUTPUT); // blue
   pinMode(redPin, OUTPUT); // red
-  lcd.begin(16, 2);
-  lcd.print("Hello!")
+  //cd.begin(16, 2);
+  //lcd.print("Hello!");
 }
 
 void loop() {
